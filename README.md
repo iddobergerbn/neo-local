@@ -8,7 +8,7 @@
 <h1 align="center">neo-local</h1>
 
 <p align="center">
-  Start a local NEO blockchain with a single command: <code>make start</code>
+  A convenient local NEO development environment with private net + neoscan + neo-python
 </p>
 
 <p align="center">

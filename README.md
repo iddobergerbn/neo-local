@@ -71,32 +71,9 @@ services:
 - [neo-privatenet](https://hub.docker.com/r/cityofzion/neo-privatenet/) (consensus nodes)
 - [neo-python](https://github.com/CityOfZion/neo-python) (development CLI)
 - [neo-scan](https://github.com/CityOfZion/neo-scan) (block explorer)
-- [postgres](https://hub.docker.com/_/postgres/) (database for neo-scan)
-- (coming sooon) [neo-faucet](https://github.com/CityOfZion/neo-faucet)
 
 ## Troubleshooting
 
-If you have an issue then please contact any of the 
-[contributors](https://github.com/CityOfZion/neo-local/graphs/contributors) on the 
-[NEO Discord](https://discord.cityofzion.io), or create an [issue](https://github.com/CityOfZion/neo-local/issues/new).
+ERROR: Couldn't connect to Docker daemon. You might need to start Docker for Mac.
 
-The **Makefile** is designed to simplify the setup process, however in doing so it can 
-obscure debugging. Thus it is recommended to run the Docker commands manually if you encounter 
-an error (as outlined in [usage](#usage)).
-
-## Credit
-
-[@slipo](https://github.com/slipo) used Docker Compose to create a simpler
-local development environment (see [repo](https://github.com/slipo/neo-scan-docker)). His work was built 
-upon by the [NeoAuth](https://github.com/neoauth) team, who simplified the idea
-further with the use of a wrapper and renamed the project.
-
-It has now moved to be a part of CoZ and is actively maintained by the team - see 
-[contributors](https://github.com/CityOfZion/neo-local/graphs/contributors).
-
-**Note** - this project sits on the shoulders of a number of great CoZ projects, and wouldn't be 
-possible without their hard work (see [services](#services)).
-
-## License
-
-[MIT](https://github.com/CityOfZion/neo-local/blob/master/LICENSE)
+docker-machine create default
